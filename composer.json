@@ -1,0 +1,25 @@
+{
+  "name": "phpdevcommunity/template-bridge",
+  "description": "TemplateBridge is a lightweight and versatile template rendering library that supports native PHP rendering and a custom C engine via a `.so` file for enhanced performance.",
+  "type": "library",
+  "require": {
+    "php": ">=7.4"
+  },
+  "license": "MIT",
+  "minimum-stability": "alpha",
+  "authors": [
+    {
+      "name": "F. Michel",
+      "homepage": "https://www.phpdevcommunity.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpDevCommunity\\TemplateBridge\\Renderer\\": "src",
+      "Test\\PhpDevCommunity\\TemplateBridge\\Renderer\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpdevcommunity/unitester": "^0.1.0@alpha"
+  }
+}
